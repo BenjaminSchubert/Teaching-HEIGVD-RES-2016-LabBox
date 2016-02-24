@@ -1,0 +1,13 @@
+<settings>
+	<profiles>
+		<profile>
+			<id>schoolPulse</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<ch.heigvd.schoolpulse.userid>BenjaminSchubert</ch.heigvd.schoolpulse.userid>
+			</properties>
+		</profile>
+	</profiles>
+</settings>

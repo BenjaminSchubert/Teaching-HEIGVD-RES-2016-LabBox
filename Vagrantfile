@@ -26,4 +26,7 @@ Vagrant.configure(2) do |config|
   #   vb.memory = "1024"
   end
 
+  config.vm.provision "shell",
+    inline: "mkdir /home/vagrant/.m2 && ln -s /vagrant/settings.xml /home/vagrant/.m2/settings.xml && chown -R vagrant: /home/vagrant/.m2"
+
 end
